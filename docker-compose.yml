@@ -1,7 +1,7 @@
 version: "3"
 services:
   nginx:
-    image: mygraphql
+    image: dalongrong/mygraphql
     build: .
     ports:
     - "8089:80"

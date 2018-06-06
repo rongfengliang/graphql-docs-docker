@@ -1,6 +1,6 @@
 # graphql docker image build && docker-compose run
 
-## How rto build
+## How to build
 
 * build website(host)
 
@@ -18,4 +18,10 @@ docker-compose build
 
 ```bash
 docker-compose up -d
+```
+
+* use  builded
+
+```bash
+docker run -d -p 80:80 dalongrong/mygraphql
 ```
