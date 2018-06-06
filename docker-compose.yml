@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nginx:
+    image: mygraphql
+    build: .
+    ports:
+    - "8089:80"
